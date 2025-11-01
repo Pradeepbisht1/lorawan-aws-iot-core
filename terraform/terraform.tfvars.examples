@@ -1,0 +1,14 @@
+# Copy this file to terraform.tfvars and fill in your values
+
+aws_region   = "ap-south-1"  # Mumbai region for India
+project_name = "lorawan-iot"
+environment  = "dev"
+
+# LoRaWAN Gateway EUI (16 hex characters)
+gateway_eui = "AABBCCDDEEFF0011"
+
+# LoRaWAN Device Configuration (OTAA)
+dev_eui = "0011223344556677"  # Replace with your device EUI
+app_eui = "0000000000000001"  # Replace with your application EUI
+app_key = "0123456789ABCDEF0123456789ABCDEF"  # Replace with your 32-character app key
+
